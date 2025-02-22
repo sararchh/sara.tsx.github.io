@@ -3,6 +3,8 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 
+import { MdMenu } from "react-icons/md";
+
 export const NavgarComponent = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -48,7 +50,7 @@ export const NavgarComponent = () => {
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
           <div className="flex flex-col justify-between space-y-1">
-            <span>X</span>
+            <MdMenu width={25} height={25} fontSize={25} />
           </div>
         </button>
 
