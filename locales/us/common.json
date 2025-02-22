@@ -1,0 +1,10 @@
+{
+  "header": {
+    "about": "About",
+    "work": "Work",
+    "contact": "Contact"
+  },
+  "banner": {
+    "title": "Banner"
+  }
+}

@@ -1,7 +1,12 @@
 import type { NextConfig } from "next";
+import i18n from "./i18n.js";
+import nextTranslate from "next-translate-plugin";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  i18n: {
+    ...i18n,
+    localeDetection: false,
+  },
 };
 
-export default nextConfig;
+export default nextTranslate(nextConfig);

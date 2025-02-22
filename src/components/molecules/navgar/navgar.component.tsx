@@ -2,23 +2,26 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import useTranslation from 'next-translate/useTranslation';
 
 import { MdMenu } from "react-icons/md";
 
 export const NavgarComponent = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const { t } = useTranslation('common');
+
 
   const menuOptions = [
     {
-      title: "About",
+      title: t("header.about"),
       href: "#about",
     },
     {
-      title: "Work",
+      title: t("header.work"),
       href: "#work",
     },
     {
-      title: "Contact",
+      title: t("header.contact"),
       href: "#contact",
     },
   ];
