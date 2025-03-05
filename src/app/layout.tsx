@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
-import Head from 'next/head';
+import Head from "next/head";
 import "./globals.css";
+
+import useTranslation from "next-translate/useTranslation";
 
 import { Lato as LatoFont } from "next/font/google";
 
@@ -33,13 +35,18 @@ export const metadata: Metadata = {
   },
 };
 
+export async function generateStaticParams() {
+  return ["pt-BR", "en-US"].map((lang) => ({ lang }));
+}
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const { lang } = useTranslation();
   return (
-    <html lang="en" translate="no">
+    <html lang={lang}>
       <Head>
         <meta
           name="viewport"

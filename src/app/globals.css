@@ -3,13 +3,16 @@
 @tailwind utilities;
 
 :root {
-  --background: #f7f7f7;
-  --black: #0a0a0a;
-  --font-lato: 'Lato', sans-serif;
+  --color-background: #f7f7f7;
+  --color-black: #0a0a0a;
+  --color-white: #ffffff;
+
+  --color-font-lato: 'Lato', sans-serif;
 }
 
 body {
-  color: var(--black);
-  background: var(--background);
-  font-family: var(--font-lato), Helvetica, sans-serif;
+  color: var(--color-black);
+  background: var(--color-background);
+  font-family: var(--color-font-lato), Helvetica, sans-serif;
+  scroll-behavior: smooth;
 }
