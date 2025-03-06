@@ -7,6 +7,9 @@ const nextConfig = {
     ...i18n,
     localeDetection: false,
   },
+  images: {
+    domains: ['avatars.githubusercontent.com'],
+  },
 };
 
 module.exports = nextTranslate(nextConfig);

@@ -66,11 +66,11 @@ export const NavgarComponent = () => {
                     </Link>
                   </li>
                 ))}
-                <li>
+                {/* <li>
                   <Link href="/" locale="en-US">
                     EN
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </div>
           ) : (

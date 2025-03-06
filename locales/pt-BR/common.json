@@ -1,10 +1,23 @@
 {
   "header": {
     "about": "Sobre",
-    "work": "Trabalho",
+    "work": "Experiência",
     "contact": "Contato"
   },
   "banner": {
     "title": "Banner"
+  },
+  "about": {
+    "value": "Olá!👋 Meu nome é Sara  e sou desenvolvedora FullStack 👩‍💻 com experiência em ReactJS, Angular, Next.js, NodeJS, NestJS e Express. Experiência em construção de aplicações escaláveis, integrações com APIs REST e bancos de dados relacionais (PostgreSQL, MySQL, Firebird) e não relacionais (MongoDB, Firebase). Proficiente em AWS, Docker e Prisma ORM. Forte atuação com metodologias ágeis, versionamento Git e testes automatizados com Jest. Formação em Análise e Desenvolvimento de Sistemas pela MULTIVIX e Software Engineer pela Driven Education. Experiência profissional na ADV Tecnologia e projetos como freelancer. Habilidade na criação de interfaces responsivas, otimização de performance e uso de design systems como Tailwind e Chakra-UI. Apaixonada por tecnologia, inovação e boas práticas de desenvolvimento."
+  },
+  "work": {
+    "title": "Experiência",
+    "value": "Sou Desenvolvedora FullStack desde 2022, com experiência em Angular, ReactJS, Next.js, Node.js, MongoDB e PostgreSQL. Atualmente, trabalho em uma empresa de sistemas ERP, onde desenvolvo aplicações fullstack de alto desempenho, arquitetura escalável e metodologias ágeis. Além disso, atuo como freelancer, onde criei um site para eventos com Next.js e Prismic CMS, gerenciando todo o processo, do desenvolvimento à hospedagem. Sou apaixonada por código bem estruturado, performance e colaboração em equipe."
+  },
+  "contact": {
+    "title": "Contato",
+    "value": "Se você deseja entrar em contato comigo, fique à vontade para me enviar um e-mail ou me chamar no LinkedIn. Estou sempre aberta a novas oportunidades e projetos incríveis!",
+    "email": "Enviar e-mail",
+    "linkedin": "LinkedIn"
   }
 }
